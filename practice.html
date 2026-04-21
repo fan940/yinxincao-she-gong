@@ -1,0 +1,84 @@
+
+<!-- saved from url=(0041)file:///C:/Users/hp/Desktop/practice.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>银心草社工</title>
+    <style>
+    body {color:black;}
+    h1 {
+        color:#ffffff;
+        letter-spacing:4px;
+        /* 关键修改：设置相对定位，让内部的绝对定位元素以它为基准 */
+        position: relative;
+        /* 关键修改：允许内容超出显示，防止列表被隐藏 */
+        overflow: visible;
+    }
+    h3 {letter-spacing:1px;}
+    p.margin {margin:-30px 135px;}
+    i.bi{margin:75px 400px;}
+
+    /* 新增样式：实践项目列表 */
+    .practice-list {
+        position: absolute;
+        /* 距离顶部 250px，大约在第一张图片下方 */
+        top: 250px;
+        /* 距离左侧 1000px，正好在宽750px的图片右侧留白处 */
+        left: 1000px;
+        width: 300px;
+        color: #333;
+        font-size: 18px;
+        line-height: 2;
+        z-index: 10;
+    }
+    .practice-list a {
+        color: #333;
+        text-decoration: none;
+    }
+    .practice-list a:hover {
+        color: #a1231d;
+    }
+    </style>
+</head>
+
+<body style="margin: 0; display: flex; flex-direction: column; align-items: center;">
+
+    <!-- 红色头部区域 -->
+    <h1 style="width: 100%; height: 200px; background-color: #a1231d; display: flex; flex-direction: column;">
+
+        <!-- 原来的图片代码（完全未动） -->
+        <img src="./practice_files/J85Db.png" alt="J85Db.png" border="0" width="300px" height="100px" style="position: absolute; top: 50px; left: 100px;">
+
+        <i class="bi">银心草社工</i>
+
+        <img src="./practice_files/69e712b698ca5_1776751286.webp" alt="KUPQ0.jpeg" border="0" width="750px" height="300px" style="position: absolute; top: 280px; left: 200px;">
+
+       
+
+        <!-- 新增：实践工作项目列表 -->
+        <div class="practice-list">
+            <h3>实践工作项目列表</h3>
+            <p>&#128073; <a href="https://mp.weixin.qq.com/s/jUsU4h6m-MjdV8WiA33FFg">社区活动详情</a></p>
+            <p>&#128073; <a href="file:///C:/Users/hp/Desktop/practice.html#">心理健康讲座</a></p>
+            <p>&#128073; <a href="file:///C:/Users/hp/Desktop/practice.html#">志愿者招募</a></p>
+        </div>
+
+    </h1>
+
+    <!-- 导航栏 -->
+    <h3 style="width: 100%; height: 30px; display:flex; padding:20px; min-height:70vh; margin:auto">
+        <p class="margin"><a href="https://fan940.github.io/yinxincao-she-gong/">首页</a></p>
+        <p class="margin">社工成员</p>
+        <p class="margin"><a href="https://mp.weixin.qq.com/s/jUsU4h6m-MjdV8WiA33FFg">实践工作</a></p>
+        <p class="margin"><a href="https://mp.weixin.qq.com/s/NRInkVTF63qE0leBr-KV0g">基地平台</a></p>
+    </h3>
+
+    <!-- 底部 -->
+    <dibulan style="width: 100%; height: 150px; background-color: #a1231d; display: flex; flex-direction: column; align-items: center;">
+        <p>版权所有银心草社工</p>
+        <p>上海市海思路100号</p>
+        <p>TEL：15221851828</p>
+    </dibulan>
+
+
+</body></html>
